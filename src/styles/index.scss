@@ -11,3 +11,23 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-image: url(https://i.pinimg.com/originals/bd/8e/fd/bd8efd98ac3175e928d7f23416b7b5c7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bigCounter{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.bigCounter div{
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
